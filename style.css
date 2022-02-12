@@ -6,6 +6,7 @@
 #sub_h1{
 	font-family: 'Anton', sans-serif;
 	margin-left: 100px;
+	margin: 50px;
 }
 
 #math_sub_card{
@@ -53,9 +54,37 @@
 	margin-top: 25px;
 }
 
+html{
+	scroll-behavior: smooth;
+}
 
+#booknow_h1{
+	font-family: 'Anton', sans-serif;
+	margin-left: 100px;
+	margin: 50px;
+}
 
+#brand_footer{
+	text-align: center;
+	color: white;
+	margin-top: 0px;
+}
 
+#copyright_footer{
+	text-align: center;
+	color: white;
+	margin-bottom: 0px;
+}
+
+#footer_site{
+	height: 150px;
+}
+
+#gmap_h1{
+	font-family: 'Anton', sans-serif;
+	margin-left: 100px;
+	margin: 50px;
+}
 
 
 

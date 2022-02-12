@@ -16,7 +16,7 @@
 </head>
 <body>
   <script src="app.js"></script>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">Chhatarpur Tuition Service</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -28,21 +28,16 @@
               <a class="nav-link" href="#"><i class="fa fa-home"></i> Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#sub_h1"><i class="fa fa-book"></i> Subjects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#g_form"><i class="fa fa-video-camera"></i> Book Now</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
+              
           </ul>
 			
-				<button class="btn btn-outline-success mr-sm-2" data-toggle="modal" data-target="#exampleModal3" type="submit"><i class="fa fa-sign-in"></i> LOG IN</button>
-      			<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-user-plus"></i> SIGN UP</button>
+				
+      			
         </div>
       </nav>
 	<!--carousel-->
@@ -66,31 +61,8 @@
 </div>
 	<!--cards-->
 	
-	<div class="row m-5">
-		<div class="col-sm-12">
-          <div class="card">
-            <div class="card-body">
-    <h4 class="card-title">Enquiry</h4>
-    <form>
-  <div class="form-group row">
-    <div class="col-sm-10 col-md-12">
-      <input type="name" class="form-control" id="e-name" placeholder="Name">
-		<input type="tel" class="form-control" id="e-mobile" placeholder="Mobile">
-		<input type="email" class="form-control" id="e-email" placeholder="Email">
-    </div>
-  </div>
-  <div class="form-group row">
-    <div class="col-sm-10 col-md-12">
-      <button type="submit" class="btn btn-outline-primary col-sm-12">Send</button>
-    </div>
-  </div>
-</form>
-
-  </div>
-          </div>
-        </div>
-	</div>
-	<h1 id="sub_h1">SUBJECTS THAT WE TEACH ↴</h1>
+	
+	<h1 id="sub_h1">SUBJECTS THAT WE PROVIDE ↴</h1>
 	<hr>
 	<div class="row m-5">
 		<div class="col-sm-4">
@@ -133,39 +105,48 @@
 				</div>
 			</div>
 		</div>
+    <div class="col-sm-4">
+			<div class="card" id="math_sub_card">
+				<div class="card-body">
+					<h1>
+            And More...
+          </h1>
+					
+				</div>
+			</div>
+		</div>
 	</div>
-	<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModal3Label">LOG IN</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-  			<div class="form-group row">
-    			<label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-    			<div class="col-sm-10" id="login_email_div">
-      				<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-    			</div>
-				
-					<label for="inputPass3" id="pass_log_label" class="col-sm-2 col-form-label">Password</label>
-    				<div class="col-sm-10" id="login_pass_div">
-      					<input type="password" class="form-control" id="inputPass3" placeholder="Password">
-    				</div>
-				
-  			</div>
-		</form>
 
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-outline-success">Log in</button>
-      </div>
+  <!--google form-->
+  <h1 id="booknow_h1">BOOK YOUR CLASS NOW ↴</h1>
+  <hr>
+  <div class="row m-5" id="g_form">
+    
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSefe2CR9dCyOVbA3Ca7C8jlMkzuGh-Fw0_nMSVOEh9F797K3g/viewform?embedded=true" width="640" height="1730" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    
+  </div>  
+
+  <!--google maps-->
+  <h1 id="gmap_h1">VIEW US ON GOOGLE ↴</h1>
+  <hr>
+  <div class="row m-5" id="g_map">
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.5917715524456!2d77.17816581507944!3d28.491838282473577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1f8fb6c3ea0f%3A0xa2cbae1f307c8168!2sChhattarpur%20Home%20Tuition%20class%206th%20to%2012th%20online%20aur%20offline!5e0!3m2!1sen!2sin!4v1644678649127!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  
+  </div> 
+
+  <!--footer-->
+
+  <footer class="bg-dark" id="footer_site">
+    <div class="container pt-5">
+      <h4 id="brand_footer">
+        Chhatarpur Tuition Service
+      </h4>
+      <h5 id="copyright_footer">
+        ©Copyright 2021-2022 Chhatarpurhometuition.com, Inc
+      </h5>
     </div>
-  </div>
-</div>
+  </footer>
 </body>
 </html>
+
