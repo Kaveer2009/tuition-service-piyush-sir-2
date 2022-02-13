@@ -86,6 +86,49 @@ html{
 	margin: 50px;
 }
 
+#carouselFadeExampleIndicators{
+	margin-top: 55px;
+}
+
+.navbar-brand img{
+	height: 30px;
+}
+
+#f_l_foo{
+	text-align: center;
+	color: white;
+	margin-bottom: 0px;
+}
+
+#ig_f_l{
+	text-align: center;
+	color: white;
+	margin-bottom: 0px;
+}
+
+a #fb_f_l{
+	color: white;
+}
+
+a #fb_f_l:hover{
+	color: #4267B2;
+	transition: 0.3s;
+}
+
+a #ig_f_l:hover{
+	color: #DD2A7B;
+	transition: 0.3s;
+}
+
+#li_f_l{
+	color: white;
+}
+
+a #li_f_l:hover{
+	color: #0E76A8;
+	transition: 0.3s;
+}
+
 
 
 
